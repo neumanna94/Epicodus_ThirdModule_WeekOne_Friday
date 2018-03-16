@@ -1,0 +1,54 @@
+.jumbotron {
+  color: #FFFCFD;
+  background-color: #055D77;
+  font-family: "Book Antiqua";
+  opacity: 0.8;
+  box-shadow: 0 0 5px black;
+}
+.jumbotron h1 {
+  text-align: center;
+}
+body {
+  color: #FFFCFD;
+  background-color: #9097bf;
+  font-family: "Book Antiqua";
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 25px;
+    color: #FFFCFD;
+    background-color: #055D77;
+    text-align: center;
+    opacity: 0.8;
+    box-shadow: 0 0 5px black;
+    font-size: 16px;
+    font-weight: bold;
+}
+#newGame {
+  width:50%;
+  margin-left: 25%;
+  text-align: center;
+}
+.btn {
+  color: #FFFCFD;
+  background-color: #055D77;
+  margin-left: 5%;
+}
+h2 {
+  text-align: center;
+}
+.hidden {
+  display:none;
+}
+#results {
+  display:none;
+}
+#results h3 {
+  text-align: center;
+}
+#playAgain {
+  margin-left: 45%;
+}
