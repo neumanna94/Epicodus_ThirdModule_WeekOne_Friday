@@ -32,7 +32,7 @@ alexander.daniel.neumann@gmail.com
 * **jQuery**
 ## Specifications
 * **Take a person’s age in years and convert it into seconds.**
-* **Take two dates and determine the difference, in seconds, between the two. (This way a user can enter a birthdate and the application can compare * **the birthdate against the current time to come up with an accurate age.)**
+* **Take two dates and determine the difference, in seconds, between the two.**
 * **Return the age of a human in Mercury years.**
 * **Return the age of a human in Venus years.**
 * **Return the age of a human in Mars years.**
