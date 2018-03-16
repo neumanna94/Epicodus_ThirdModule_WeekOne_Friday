@@ -25,9 +25,17 @@ None currently known of. Contact alexander.daniel.neumann@gmail.com if found.
 alexander.daniel.neumann@gmail.com
 ## Technologies Used
 * **npm(node package manager)**
-* **javascript**
-* **html**
-* **css**
-* **bootstrap**
-* **jquery**
-##Specifications
+* **Javascript**
+* **Html**
+* **Css**
+* **Bootstrap**
+* **jQuery**
+## Specifications
+* **Take a person’s age in years and convert it into seconds.**
+* **Take two dates and determine the difference, in seconds, between the two. (This way a user can enter a birthdate and the application can compare * **the birthdate against the current time to come up with an accurate age.)**
+* **Return the age of a human in Mercury years.**
+* **Return the age of a human in Venus years.**
+* **Return the age of a human in Mars years.**
+* **Return the age of a human in Jupiter years.**
+* **Determine how many years a user has left to live on each planet…**
+* **Check if a user has already surpassed the average life expectancy. If they have, they should receive a different output.**

@@ -47,4 +47,7 @@ export class Time {
       return false;
     }
   }
+  CheckLifeExpectancyForDifferentPlanet(inputConversionFactor){
+    return this.SimpleLifeExpectancyGenerator()*(1/inputConversionFactor);
+  }
 }
