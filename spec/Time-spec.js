@@ -10,7 +10,7 @@ describe('Time', function() {
   });
   it('Test Constructor', function() {
     expect(Math.round(newTime.then.getSeconds())).toEqual(Math.round(thenDate.getSeconds()));
-    expect(Math.round(newTime.now.getSeconds())).toEqual(Math.round(nowDate.getSeconds()));
+    expect(Math.round(newTime.now.getSeconds()).toEqual(Math.round(nowDate.getSeconds()));
   });
   it('Check IntegerYearToSeconds for 100 cases.', function() {
     for(var i = 0; i < 100; i ++){

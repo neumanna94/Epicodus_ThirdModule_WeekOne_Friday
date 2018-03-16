@@ -1,7 +1,9 @@
 export class Time {
-  constructor (inputTime){
+  constructor (inputTime, lifeExpect){
     this.then = inputTime;
     this.now = new Date();
+    this.lifeExpectancy = lifeExpect;
+
   }
   ThenToSeconds(){
     return this.then.getTime()/1000;
@@ -35,12 +37,11 @@ export class Time {
     //Second -> Minute -> Hour -> Day -> Year -> Conversion Factor for Planet.
     return inputYear*365.25*24*60*60;//Year*(days/Year)(hours/day)(minutes/hour)(seconds/minute)
   }
-  SimpleLifeExpectancyGenerator(inputLifeExpect){
-    return inputLifeExpect - this.NowToThenDifferenceSeconds()*(1/60)*(1/60)*(1/24)*(1/365.25);
+  SimpleLifeExpectancyGenerator(){
+    return this.lifeExpectancy - this.NowToThenDifferenceSeconds()*(1/60)*(1/60)*(1/24)*(1/365.25);
   }
-  CheckExceedLifeExpectancy(inputLifeExpect){
-    console.log(this.SimpleLifeExpectancyGenerator(inputLifeExpect));
-    if(this.SimpleLifeExpectancyGenerator(inputLifeExpect) < 0){
+  CheckExceedLifeExpectancy(){
+    if(this.SimpleLifeExpectancyGenerator() < 0){
       return true;
     } else {
       return false;
