@@ -26,8 +26,8 @@ alexander.daniel.neumann@gmail.com
 ## Technologies Used
 * **npm(node package manager)**
 * **Javascript**
-* **Html**
-* **Css**
+* **HTML**
+* **CSS**
 * **Bootstrap**
 * **jQuery**
 ## Specifications
