@@ -20,12 +20,17 @@
         <form id="newTime">
           <div class="form-group">
             <label for="born">Date of birth:</label>
-            <input id="born" class="form-control" type="date">
+            <input id="born" class="form-control" type="date" required>
           </div>
+          <label for="lifeExpect">Enter your Life Expectancy in Years: </label>
+          <input id="lifeExpect" class="form-control" type="text" required>
           <button type="submit" class="btn medium">Submit</button>
         </form>
-        <h2> Result Section </h2>
-        <div id="results"></div>
+        <div class="container">
+          <h2> Result Section <hr></h2>
+          <div class="row" id = "results">
+          </div>
+        </div>
       </div>
     </div>
     <footer>Alexander Neumann @ Epicodus 2018</footer>

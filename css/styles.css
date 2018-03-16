@@ -17,8 +17,14 @@ footer {
   font-size: 16px;
   font-weight: bold;
 }
-h2,h4 {
+h2 {
   text-align: center;
+}
+h3 {
+  color: #FFF2F8
+}
+h5 {
+  color: white;
 }
 .jumbotron {
   color: #FFFCFD;
@@ -44,4 +50,16 @@ h2,h4 {
 #newTime {
   width: 50%;
   margin-left: 25%;
+}
+.result {
+  background-color: #055D77;
+  color: #FFFCFD;
+  opacity: 0.8;
+  box-shadow: 0 0 5px #10A39E;
+  display: block !important;
+  font-family: "Book Antiqua";
+  margin: 10px;
+  font-weight: bold;
+  font-size: 12px;
+  border: 1px solid black;
 }
